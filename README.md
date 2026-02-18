@@ -13,8 +13,7 @@ The datasets can be downloaded from the `data` folder of the official LightGCN r
 After downloading, preprocess the datasets using the Python scripts:
 
 1. Run `splitdata.py` to split the data into shadow and target datasets.  
-2. Re-index the user IDs in the target dataset starting from 0 by running `reidx.py`.  
-3. Run `prepareattackdata.py` on the shadow and target datasets to generate the attack dataset and the test dataset, respectively.
+2. Run `prepareattackdata.py` on the shadow and target datasets to generate the attack dataset and the test dataset, respectively.
 
 # Training the Recommendation Models
 
